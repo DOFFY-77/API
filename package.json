@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "nodemon": "^3.1.0"
+  }
+}

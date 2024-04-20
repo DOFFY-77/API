@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <h3>Welcome to Blog APIs</h3>
+      <p>Here is APIs that is developed for portflio perpose .</p>
+      <input
+        id="parameter"
+        onkeyup="setParam()"
+        name="parameter"
+        placeholder="Enter Paremter ... "
+      />
+      <div class="btn-section">
+        <a href="/postform"><button>Create Post</button></a>
+        <a href="/posts"><button>Get Posts</button></a>
+        <a href="/updateform"><button>Update Post</button></a>
+        <button onclick="openURL('/deletepost')">Delete Post</button>
+      </div>
+      <div class="btn-section" >
+        <button onclick="openURL('/posts-c')">Posts By Category</button>
+        <button onclick="openURL('/posts-t')">Posts By tags</button>
+        <button onclick="openURL('/posts')">Post By ID</button>
+        <button onclick="openURL('/posts-title')">Post By Title</button>
+      </div>
+      <button class="follow" >Contact Me</button>
+    </div>
+  </body>
+  
+</html>

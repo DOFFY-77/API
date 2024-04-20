@@ -1,0 +1,16 @@
+[
+{"id":1,
+"title":"Titanic",
+"content":"A timeless love story unfolds against the backdrop of the ill-fated maiden voyage of the Titanic.",
+"category": "romance",
+"tags": ["love story", "Titanic", "maiden voyage", "tragedy", "love prevails", "romance"]
+},
+
+{"id":2,
+"title":"The Great Gatsby",
+"content": "Amid the glitz of the roaring '20s, Jay Gatsby pursues the American Dream. But beneath the opulenc.",
+"category":"drama",
+"tags":["roaring '20s", "Jay Gatsby", "American Dream", "love", "obsession", "shattered illusions"]
+}
+
+]

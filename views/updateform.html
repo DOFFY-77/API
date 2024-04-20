@@ -1,0 +1,51 @@
+<body>
+  <div class="container" style="margin-top: 25px; padding: 5px">
+    <h3>Update Post</h3>
+    <p>
+      Here is a sample post creator your created post will be deleted after 10
+      minutes .
+    </p>
+    <form action="/updatepost" method="POST">
+      <label for="ID">ID</label>
+      <input
+        type="number"
+        name="id"
+        id="id"
+        placeholder="Enter Post ID here ... "
+      />
+      <label for="title">Write Post Title</label>
+      <input
+        type="text"
+        name="title"
+        id="title"
+        placeholder="Enter Post title here ... "
+      />
+      <label for="post-content">Post Content</label>
+      <textarea
+        name="content"
+        id="content"
+        cols="30"
+        rows="10"
+        placeholder="Enter Content Here ... "
+      ></textarea>
+      <label for="category">Category</label>
+      <input
+        type="text"
+        id="category"
+        name="category"
+        placeholder="Enter Category"
+      />
+      <label for="tags">#Tags</label>
+      <input type="text" id="tags" name="tags" placeholder="Enter Tags Here" />
+      <button class="follow" type="submit">Update Now</button>
+    </form>
+  </div>
+</body>
+<script>
+  let parameter = function setParam() {
+    parameter = document.getElementById("parameter").value;
+  };
+  function openURL(api) {
+    window.open(api + "/" + parameter);
+  }
+</script>
